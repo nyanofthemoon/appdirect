@@ -12,5 +12,5 @@ Install the project dependencies:
 
 Starts the static and proxy servers:
 
-`npm start`
+`npm run dev`
 

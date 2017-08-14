@@ -1,0 +1,20 @@
+.errorBox {
+    color: #b00;
+    border: 1px solid #b00;
+    box-shadow: 0 0 5px #b00;
+    font-weight: bold;
+    text-align: center;
+    max-width: 250px;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+
+.errorBox::before {
+    content: "\26a0";
+    font-size: 50px;
+    line-height: 1;
+}
+
+.message {
+    margin: 0;
+}

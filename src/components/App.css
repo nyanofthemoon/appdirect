@@ -2,3 +2,9 @@
     margin-top: 0;
     border-bottom: 1px solid #bbb;
 }
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

@@ -1,0 +1,22 @@
+.loadingSpinner {
+    border: 15px solid transparent;
+    border-radius: 50%;
+    border-top-color: black;
+    border-bottom-color: black;
+    display: block;
+    width: 0;
+    margin: 10px auto;
+    animation-name: spinner;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

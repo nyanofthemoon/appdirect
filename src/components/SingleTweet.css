@@ -1,0 +1,40 @@
+.singleTweet {
+    display: block;
+    position: relative;
+    font-weight: 300;
+    padding: 0.5em;
+    border-top: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.retweet::after {
+    content: "RT";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #bdb;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.6em;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tweetText {
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+.tweetText a {
+    font-weight: 400;
+}
+
+.tweetTime {
+    color: #999;
+    font-size: 0.65em;
+    font-style: italic;
+    margin-bottom: 0;
+}

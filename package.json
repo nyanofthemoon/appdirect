@@ -24,13 +24,16 @@
     "babel-preset-react": "^6.24.1",
     "babili-webpack-plugin": "^0.1.2",
     "caniuse-lite": "^1.0.30000715",
+    "classnames": "^2.2.5",
     "css-loader": "^0.28.4",
+    "moment": "^2.18.1",
     "npm-run-all": "^4.0.2",
     "postcss-cssnext": "^3.0.2",
     "postcss-loader": "^2.0.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "style-loader": "^0.18.2",
+    "twitter-text": "^1.14.7",
     "webpack": "^3.5.4"
   }
 }
