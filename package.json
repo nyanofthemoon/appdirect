@@ -13,7 +13,8 @@
     "start": "node server.js",
     "webpack:dev": "webpack",
     "webpack:prod": "webpack --config webpack.config.prod.js",
-    "dev": "npm-run-all --parallel start webpack:dev"
+    "dev": "npm-run-all --parallel start webpack:dev",
+    "setup": "cp -p config.example.json config.json"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
